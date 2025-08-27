@@ -1,0 +1,20 @@
+internalDatabase:
+  enabled: false
+
+externalDatabase:
+  enabled: true
+  type: postgresql
+  host: acid-minimal-cluster.default.svc.cluster.local  # This depends on your operator's service naming
+  user: nextcloud
+  database: nextcloud
+  password: qpwYpcjcMxzsWcbN7rUmCB7DEKkUjIY3ncClMWtCGfCwLSBQLejyG80653Z2BGX0  
+
+# Nextcloud configuration
+nextcloud:
+  host: nextcloud.ahihi.io.vn
+  username: admin
+  password: "changeme"  # Consider using a secret for this too
+
+service:
+  type: LoadBalancer
+

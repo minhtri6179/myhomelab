@@ -1,0 +1,7 @@
+apiVersion: v2
+name: nextcloud-aio
+description: Helm chart for Nextcloud All-in-One
+type: application
+version: 0.1.0
+appVersion: "latest"
+
